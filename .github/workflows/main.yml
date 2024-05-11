@@ -61,8 +61,9 @@ jobs:
           context: ./backend/
           push: true
           tags: aleksandrpar/taski_backend:latest 
-    frontend_tests:
+  frontend_tests:
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@v3
     - name: Set up nodeJS
