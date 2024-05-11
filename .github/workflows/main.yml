@@ -12,3 +12,4 @@ jobs:
 GitHub Actions
       - name: Print project tree
         run: tree .
+# На GitHub Actions есть готовые описания шагов,
